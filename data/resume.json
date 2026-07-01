@@ -1,0 +1,79 @@
+{
+  "basics": {
+    "name": "Jonathan",
+    "label": "Pre & Post Sales Technical Lead",
+    "email": "jonathan@teamapollo.com",
+    "location": "Grove City, United States",
+    "summary": "A short 2–3 sentence intro about who you are, what you do, and what you're great at. This renders at the top of the site and sets the tone.",
+    "profiles": [
+      { "network": "GitHub", "url": "https://github.com/your-handle" },
+      { "network": "LinkedIn", "url": "https://www.linkedin.com/in/jonathan-maxwell-6888b2190/" }
+    ]
+  },
+  "highlights": [
+    { "value": "10+", "label": "Years experience" },
+    { "value": "25", "label": "Projects shipped" },
+    { "value": "3", "label": "Teams led" }
+  ],
+  "experience": [
+    {
+      "company": "Team Apollo",
+      "position": "Your Role",
+      "start": "2023",
+      "end": "Present",
+      "summary": "One line describing the scope of the role.",
+      "achievements": [
+        "Quantified achievement — what you did and the measurable impact (e.g. cut load time 40%).",
+        "Another achievement framed as action + result.",
+        "A third notable win."
+      ]
+    },
+    {
+      "company": "Previous Company",
+      "position": "Earlier Role",
+      "start": "2020",
+      "end": "2023",
+      "summary": "One line describing the scope of the role.",
+      "achievements": [
+        "Achievement with impact.",
+        "Achievement with impact."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project Name",
+      "description": "What it is and why it matters, in one or two sentences.",
+      "tags": ["TypeScript", "Design"],
+      "url": "https://example.com",
+      "highlight": true
+    },
+    {
+      "name": "Another Project",
+      "description": "Short description.",
+      "tags": ["Open Source"],
+      "url": "https://github.com/your-handle/project"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Award or Recognition",
+      "issuer": "Organization",
+      "date": "2024",
+      "description": "One line on what it was for."
+    }
+  ],
+  "skills": [
+    { "category": "Languages", "items": ["JavaScript", "Python", "SQL"] },
+    { "category": "Frontend", "items": ["HTML", "CSS", "React"] },
+    { "category": "Tools", "items": ["Git", "Figma", "Docker"] }
+  ],
+  "education": [
+    {
+      "institution": "University Name",
+      "study": "Degree, Field of Study",
+      "start": "2014",
+      "end": "2018"
+    }
+  ]
+}

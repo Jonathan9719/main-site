@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jonathan — Portfolio & Resume</title>
+  <meta name="description" content="Personal achievement site and resume." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="nav__brand" href="#top" data-bind="basics.name">Jonathan</a>
+      <div class="nav__links">
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#skills">Skills</a>
+      </div>
+      <button class="theme-toggle" type="button" aria-label="Toggle color theme">◐</button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section id="top" class="hero container">
+      <p class="hero__label" data-bind="basics.label">Your Professional Title</p>
+      <h1 class="hero__name" data-bind="basics.name">Jonathan</h1>
+      <p class="hero__summary" data-bind="basics.summary"></p>
+      <div class="hero__actions" id="profiles"></div>
+      <ul class="highlights" id="highlights"></ul>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section container">
+      <h2 class="section__title">Experience</h2>
+      <div class="timeline" id="experience-list"></div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section container">
+      <h2 class="section__title">Projects</h2>
+      <div class="cards" id="projects-list"></div>
+    </section>
+
+    <!-- Achievements -->
+    <section id="achievements" class="section container">
+      <h2 class="section__title">Achievements</h2>
+      <div class="cards" id="achievements-list"></div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section container">
+      <h2 class="section__title">Skills</h2>
+      <div class="skills" id="skills-list"></div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section container">
+      <h2 class="section__title">Education</h2>
+      <div class="timeline" id="education-list"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>&copy; <span id="year"></span> <span data-bind="basics.name">Jonathan</span>.</p>
+    <a href="#top" class="to-top">Back to top ↑</a>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
